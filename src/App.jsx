@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import { ToastContainer, toast } from 'react-toastify';
 import Cart from './Pages/Cart/Cart'
-import Home from './Pages/home/home'
+import Home from './Pages/home/Home'
 import Order from './Pages/order/Order'
 import { Route, Routes } from 'react-router'
-import axios from 'axios'
+
 import { getData } from './services'
 
 
